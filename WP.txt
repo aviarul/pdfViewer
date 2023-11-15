@@ -1,0 +1,1085 @@
+EXNO : 1
+
+Web page for college using href, list and frame tags
+
+Home.html
+<html>
+<head>
+<title>Home</title>
+</head>
+<frameset rows="30%,*">
+<frame src="frame1.html">
+<frameset cols="25%,*">
+<frame src="frame2.html" name="f2">
+<frame src="frame3.html" name="f3">
+</frameset>
+</html>
+
+Frame1.html
+<html>
+<head><title>frame1</title>
+</head>
+<body bgcolor="blue">
+<h1><img src="H:\IV IT B 2017-21\WP 2018 R\lab\1a\logo.jpg" ALIGN="left"/>
+<h1 style="color.green;font-size:15pt">
+<marquee bgcolor="#cccccc" loop="-1" scrollamount="6" width="100%">
+Adhiyamaan College of Engineering (Autonomous)</marquee>
+</h1>
+</body>
+</html>
+
+Logo.html
+<html>
+<head><title>LOGO</title></head>
+<body bgcolor="magenta">
+<h1><img src="H:\IV IT B 2017-21\WP 2018 R\lab\1a\logo.jpg" ALIGN="right"/>
+<center>Adhiyamaan College of Engineering (Autonomous)<br/>
+Dr.M.G.R.Nagar, Hosur,<br/>
+Krishnagiri District, Tamil Nadu,<br/>
+India. Pin:635 109<br/></center></h1>
+</body>
+</html>
+
+Frame2.html
+<html>
+<head><title>frame2</title>
+<style type="text/css"> h1 {
+font-size:25pt;color:pink;
+}
+</style>
+
+</head>
+<body bgcolor="red">
+<h3>
+<a href="COURSES.html" target=f3>COURSES</a><br><br>
+<a href="dept.html" target=f3>DEPARTMENTS</a></br><br>
+<a href="ad.html" target=f3>FACILITIES</a><br><br>
+<a href="lib.html" target=f3>LIBRARY</a><br><br>
+<a href="COE.html" target=f3>COE</a><br><br>
+</h1>
+</body>
+</html>
+
+Frame3.html
+<html>
+<head><title>1st page</title>
+<link rel="stylesheet" type="text/css" href="C:\Documents and
+Settings\Administrator\Desktop\ab\css1.css"/>
+</head>
+<body bgcolor="tan">
+<h1> AHIYAMAAN COLLEGE OF ENGINEERING (AUTONOMOUS)......</h1></br>
+<h2> WEL COMES YOU ALL</h2>
+<h3>
+<p><i>Adhiyamaan College of Engineering is one of the educational institutions developed
+by Adhiyamaan Educational & Research Institution - a trust, which was started in the year
+1987-1988 to cater the needs of the nation in the development of technocrats and to provide
+facilities for educating and training men and women to meet the entrepreneurial and
+management needs. The management has created adequate infrastructural facilities and
+sufficient funds and is keen on developing the institution for higher education.</i></p>
+<p><i>The Institution is situated 6 kms from Hosur bus stand and railway station. The
+Institution is well connected to three major Railway Junctions viz., Hosur, Jolarpet and
+Bangalore.</i></p>
+</h3>
+</body>
+</html>
+
+COURSES.html
+<html>
+<head><title>intro</title>
+</head>
+<font color=red>
+<p><b><h1>
+Welcome to Adhiyamaan College of Engineering - Affiliated
+to Anna University</br>
+COURSES OFFERED
+</p></b></h1><br>
+<br></font>
+<ol type=1>
+
+<ol>1. B. E., Mechanical Engineering </ol>
+<ol>2. B. E., Computer Science & Engineering</ol>
+<ol>3. B. E., Electronics and Communication Engineering</ol>
+<ol>4. B. E., Electrical and Electronics Engineering</ol>
+<ol>5. B. E., Electronics and Instrumentation Engineering</ol>
+<ol>6. B. E., Civil Engineering</ol>
+<ol>7. B. E., Bio-Medical Engineering</ol>
+<ol>8. B. E., Aeronautical Engineering</ol>
+<ol>9. B. Tech., Bio-Technology</ol>
+<ol>10. B. Tech., Information Technology</ol>
+<ol>11. B. Tech., Chemical Engineering</ol>
+<ol>12. B. Arch.,( Architecture)
+</ol> </ol>
+</body>
+</html>
+
+Dept.html
+<html>
+<head><title>Departments</title>
+</head>
+<body>
+<div align="center">
+<table border=2>
+<tr>
+<th>Dept code</th>
+<th>Dept name</th>
+</tr>
+<tr>
+<td>01</td>
+<td>CSE</td>
+</tr>
+<tr>
+<td>02</td>
+<td>ECE</td>
+</tr>
+<tr>
+<td>03</td>
+<td>EEE</td>
+</tr> <tr>
+<td>04</td>
+<td>IT</td>
+</tr>
+<tr>
+<td>05</td>
+<td>MECH</td>
+</tr>
+<tr>
+
+<td>06</td>
+<td>AERO</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+Ad.html
+<html>
+<head><title>ADDRESS</title>
+</head>
+<font color=GREEN>
+Name: Adhiyamaan College of Engineering </br>
+Location:HOSUR
+</font>
+<ol type=1>
+<ol>1. LIBRARY </ol>
+<ol>2. SPORTS</ol>
+<ol>3. HOSTEL</ol>
+<ol>4. TRANSPORT</ol>
+<ol>5. BANK FACILITY</ol>
+</body>
+</html>
+
+Lib.html
+<html>
+<head><title>ADDRESS</title>
+</head>
+<body>
+<p>The Central Library has been built to International Standards. It spread over to an area of
+4500 sq. m. with ground plus four floors. The library is equipped with a Reference section it
+could accommodated around 500 students, Digital library, Audio Visual Section, Journal
+Section, conference room, Research Scholar Section, Newspaper and Magazine Section, and
+Reprography Section. It has numerous specialized collection of Books, Journals, ASME,
+ASTM, IEEE-ASPP, Springer, Elsevier, EBSCO Art & Architecture, GREENR Architecture, J-Gate Engineering, J-Gate Business Management, EMERALD Management,
+and McGraw Hill.</br>
+<P>The library is fully computerized and can be accessed using the OPAC (Online Public
+Access Catalogue) system which enables the students to search the required books they
+specifying the author, title, subject and keywords. It facilitates the users to reserve the books
+they need, and also updates on the status of a particular book and that of the User.</br>
+<p>The library has been actively conducting NPTEL Video courses for students every
+evening. It has also made DELNET - Institution Membership and Inter Library loan available
+for the students.</br>
+</body>
+</html>
+
+COE.html
+<html>
+<head></head>
+<body>
+<h1>
+Contact Address for More Details:</h1></br>
+<h2>
+The Controller of Examination,</br>
+Adhiyamaan College of Engineering,</br>
+Dr.M.G.R Nagar, Hosur, Krishnagiri Dt, Tamilnadu- 635109.</h2>
+</body>
+</html>
+
+OUTPUTS:
+
+Home.html
+
+COURSES.html
+
+Dept.html
+
+Ad.html
+
+Lib.html
+
+COE.html
+
+EX NO : 2
+
+Class timetable using table tag.
+
+time table.html
+<!DOCTYPE html>
+<html>
+<body>
+<h1>TIME TABLE</h1>
+<table border="5" cellspacing="0" align="center">
+<!--<caption>Timetable</caption>-->
+<tr>
+<td align="center" height="50"
+width="100"><br>
+<b>Day/Period</b></br>
+</td>
+<td align="center" height="50"
+width="100">
+<b>I<br>9:30-10:20</b>
+</td>
+<td align="center" height="50"
+width="100">
+<b>II<br>10:20-11:10</b>
+</td>
+<td align="center" height="50"
+width="100">
+<b>III<br>11:10-12:00</b>
+</td>
+<td align="center" height="50"
+width="100">
+<b>12:00-12:40</b>
+</td>
+<td align="center" height="50"
+width="100">
+<b>IV<br>12:40-1:30</b>
+</td>
+<td align="center" height="50"
+width="100">
+<b>V<br>1:30-2:20</b>
+</td>
+<td align="center" height="50"
+width="100">
+<b>VI<br>2:20-3:10</b>
+</td>
+<td align="center" height="50"
+width="100">
+<b>VII<br>3:10-4:00</b>
+
+</td>
+</tr>
+<tr>
+<td align="center" height="50">
+<b>Monday</b></td>
+<td align="center" height="50">Eng</td>
+<td align="center" height="50">Mat</td>
+<td align="center" height="50">Che</td>
+<td rowspan="6" align="center" height="50">
+<h2>L<br>U<br>N<br>C<br>H</h2>
+</td>
+<td colspan="3" align="center"
+height="50">LAB</td>
+<td align="center" height="50">Phy</td>
+</tr>
+<tr>
+<td align="center" height="50">
+<b>Tuesday</b>
+</td>
+<td colspan="3" align="center"
+height="50">LAB
+</td>
+<td align="center" height="50">Eng</td>
+<td align="center" height="50">Che</td>
+<td align="center" height="50">Mat</td>
+<td align="center" height="50">SPORTS</td>
+</tr>
+<tr>
+<td align="center" height="50">
+<b>Wednesday</b>
+</td>
+<td align="center" height="50">Mat</td>
+<td align="center" height="50">phy</td>
+<td align="center" height="50">Eng</td>
+<td align="center" height="50">Che</td>
+<td colspan="3" align="center"
+height="50">LIBRARY
+</td>
+</tr>
+
+<tr>
+<td align="center" height="50">
+<b>Thursday</b>
+</td>
+<td align="center" height="50">Phy</td>
+
+<td align="center" height="50">Eng</td>
+<td align="center" height="50">Che</td>
+<td colspan="3" align="center"
+height="50">LAB
+</td>
+<td align="center" height="50">Mat</td>
+</tr>
+<tr>
+<td align="center" height="50">
+<b>Friday</b>
+</td>
+<td colspan="3" align="center"
+height="50">LAB
+</td>
+<td align="center" height="50">Mat</td>
+<td align="center" height="50">Che</td>
+<td align="center" height="50">Eng</td>
+<td align="center" height="50">Phy</td>
+</tr>
+<tr>
+<td align="center" height="50">
+<b>Saturday</b>
+</td>
+<td align="center" height="50">Eng</td>
+<td align="center" height="50">Che</td>
+<td align="center" height="50">Mat</td>
+<td colspan="3" align="center"
+height="50">SEMINAR
+</td>
+<td align="center" height="50">SPORTS</td>
+</tr>
+</table>
+</body>
+</html>
+
+OUTPUT:
+
+EX NO : 3 Web page for town Using External, Internal, and Inline CSS
+Sample.html
+<html>
+<head>
+<style type="text/css">
+body
+{
+background-image: url("L.gpeg"); backgroundrepeat:no-repeat; background-position:center center;
+background-attachment:fixed;
+background-color:pink;
+}
+a:link { text-decoration:none;color:orange; }
+a:visited { text-decoration:none;color:red; }
+a:hover { text-decoration:underline;color:blue; }
+a:active { text-decoration:underline;color:purple; }
+h3 { color:green; } .c1{cursor:crosshair}
+.c2{cursor:pointer}
+.c3{cursor:move}
+.c4{cursor:text}
+.c5{cursor:wait}
+.c6{cursor:help}
+</style>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor="cyan">
+<h1 style="color:blue;text-align:center;"> ABOUT HOSUR:: CONCEPT:CSS (Inline,
+Internal and External) </h1>
+<p>Hosur is an industrial city located in the Indian state of Tamil Nadu. </p>
+<p class="left">It is located on the bank of the river River Ponnaiyar: Styled by class
+"Left"</p>
+<p class="center">Hosur is home to major industries: Styled by class "Center"</p>
+<p class="right">Hosur is my town: Styled by class "Right"</p>
+<b>Hosur was known as Chevidapadi in the 10th century: normal Bold</b> <br>
+<b id="headline">Hosur was part of Kingdom of Mysore: Bold Text is Styled </b>
+<h2><b><a href=" images.html">Click HERE TO VIEW HOSUR IMAGES</a></b></h2>
+<h3 class="c1">Hosur experiences a tropical savanna climate: The cursor over this element is
+plus sign</h3>
+<h3 class="c2">The coolest month is January with an average low temperature : The cursor
+over this element is a pointing hand</h3>
+<h3 class="c3">Hosur is an industrial hub :The cursor over this element is a grasping
+hand</h3>
+<h3 class="c4">A variety of fruits and vegetables are cultivated around Hosur. :The cursor
+over this element is a I bar</h3>
+<h3 class="c5">The land is very fertile and there is significant access to fresh water as well
+as labor.:The cursor over this element is a wait</h3>
+
+<h3 class="c6">National Highway AH43 (NH 44) passes through Hosur connecting it with
+Bangalore: The cursor over this element is a question mark</h3>
+</html>
+
+style.css
+p.left { textalign:left; color:blue;
+font-family:Cambria;
+font-size:large; textindent:20px;
+}
+p.center {
+text-align:center; textdecoration:underline; texttransform:uppercase; letterspacing:-3px; word-spacing:20px;
+font-size:larger;
+}
+p.right { text-align:right;
+color:red; fontfamily:Tahoma; fontsize:15pt; textdecoration:overline;
+font-style:italic;
+} b#headline
+{ color:orange; fontsize:22px; fontfamily:arial; textdecoration:underline;
+}
+
+Images.html
+<html><body>
+<h2>HTML Image</h2>
+<img src="1.jpg" alt="temple" width="200" height="300">
+<img src="2.jpg" alt="ol fort" width="200" height="300">
+<img src="3.jpg" alt="old municipal office" width="200" height="300">
+<img src="4.jpg" alt="Railway station" width="200" height="300">
+<img src="5.jpg" alt="pin code" width="200" height="300">
+<img src="6.jpg" alt="ACE,hosur" width="200" height="300">
+</body>
+</html>
+
+OUTPUTS:
+Sample.html
+
+Images.html
+
+EX NO 4 Student registration form for job application and validation of
+the form fields using JavaScript.
+StudentRegistration.html
+<html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="#" name="StudentRegistration" onsubmit="return(validate());">
+<table cellpadding="2" width="20%" bgcolor="99FFFF" align="center"
+cellspacing="2"> <tr>
+<td colspan=2>
+<center><font size=4><b>Student Registration Form</b></font></center> </td>
+</tr>
+<tr>
+<td>Name</td>
+<td><input type=text name=textnames id="textname" size="30"></td> </tr>
+<tr>
+<td>College Name</td>
+<td><input type="text" name="collegename" id="collegename" size="30"></td>
+</tr>
+<tr>
+<td>University </td>
+<td><input type="text" name="University" id="University" size="30"></td>
+</tr>
+<tr>
+<td>Course completed</td>
+<td><select name="Course">
+<option value="-1" selected>select..</option>
+<option value="B.Tech">B.TECH</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">BCA</option>
+</select></td>
+</tr>
+<td>Percentage</td>
+<td><input type="text" name="Percentage" id="Percentage" size="30"></td> </tr>
+<tr>
+<td>Prefred position</td>
+<td><select name="position">
+<option value="-1" selected>select..</option>
+<option value="Software Engineer">Software Engineer</option>
+<option value="Testing Engineer">Testing Engineer</option>
+<option value="Networking Engineer">Networking Engineer</option>
+<option value="Developer">Developer</option>
+<option value="others">others</option>
+</select></td>
+
+<tr>
+<td>DOB</td>
+<td><input type="text" name="dob" id="dob" size="30"></td>
+</tr>
+<tr>
+<td>EmailId</td>
+<td><input type="text" name="emailid" id="emailid" size="30"></td>
+</tr>
+<tr>
+<td>MobileNo</td>
+<td><input type="text" name="mobileno" id="mobileno" size="30"></td> </tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="Gender" value="male" size="10">Male
+<input type="radio" name="Gender" value="Female" size="10">Female</td> </tr>
+<tr>
+<td>Prefred City for job</td>
+<td><select name="City">
+<option value="-1" selected>select..</option>
+<option value="Chennai">Chennai</option>
+<option value="Bangalore">Bangalore</option>
+<option value="Hydrabad">Hydrabad</option>
+<option value="others">others</option>
+</select></td>
+</tr>
+<tr>
+<td>Personal Address</td>
+<td><input type="text" name="personaladdress" id="personaladdress"
+size="30"></td>
+</tr>
+<tr>
+<td>State</td>
+<td><select Name="State">
+<option value="-1" selected>select..</option>
+<option value="Tamilnadu">Tamilnadu</option>
+<option value="Karnatka">Karnatka</option>
+<option value="other">other</option>
+</select></td>
+</tr>
+<tr>
+<td>PinCode</td>
+<td><input type="text" name="pincode" id="pincode" size="30"></td>
+</tr>
+
+<tr>
+<td><input type="reset"></td>
+<td colspan="2"><input type="submit" value="Submit Form" /></td>
+
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+Validate.js
+function validate()
+{
+if( document.StudentRegistration.textnames.value == "" )
+{
+alert( "Please provide your Name!" );
+document.StudentRegistration.textnames.focus() ; return
+false;
+}
+if( document.StudentRegistration.collegename.value == "" )
+{
+alert( "Please provide your collegename!" );
+document.StudentRegistration.collegename.focus() ; return
+false;
+}
+if( document.StudentRegistration.University.value == "" )
+{
+alert( "Please provide your University!" );
+document.StudentRegistration.University.focus() ; return
+false;
+}
+if( document.StudentRegistration.Course.value == "-1" )
+{
+alert( "Please provide your Course!" );
+return false;
+}
+if( document.StudentRegistration.Percentage.value == "" ||
+isNaN( document.StudentRegistration.Percentage.value) ||
+document.StudentRegistration.Percentage.value.length != 4 )
+{
+alert( "Please provide a Percentage in the format ######." );
+document.StudentRegistration.Percentage.focus() ; return
+false;
+}
+if( document.StudentRegistration.position.value == "-1" )
+{
+alert( "Please provide your position!" );
+document.StudentRegistration.position.focus() ;
+return false;
+} if( document.StudentRegistration.dob.value ==
+"" )
+{
+
+alert( "Please provide your DOB!" );
+document.StudentRegistration.dob.focus() ; return
+false;
+} var email =
+document.StudentRegistration.emailid.value; atpos =
+email.indexOf("@"); dotpos = email.lastIndexOf(".");
+if (email == "" || atpos < 1 || ( dotpos - atpos < 2 ))
+{
+alert("Please enter correct email ID")
+document.StudentRegistration.emailid.focus() ;
+return false; } if(
+document.StudentRegistration.mobileno.value == "" ||
+isNaN( document.StudentRegistration.mobileno.value) ||
+document.StudentRegistration.mobileno.value.length != 10 )
+{
+alert( "Please provide a Mobile No in the format 123." );
+document.StudentRegistration.mobileno.focus() ;
+return false;
+}
+if ( ( StudentRegistration.Gender[0].checked == false ) && (
+StudentRegistration.Gender[1].checked == false ) )
+{
+alert ( "Please choose your Gender: Male or Female" );
+return false;
+}
+if( document.StudentRegistration.City.value == "-1" )
+{
+alert( "Please provide your City!" );
+document.StudentRegistration.City.focus() ;
+return false;
+}
+if( document.StudentRegistration.personaladdress.value == "" )
+{
+alert( "Please provide your Personal Address!" );
+document.StudentRegistration.personaladdress.focus() ; return
+false;
+}
+if( document.StudentRegistration.State.value == "-1" )
+{ alert( "Please provide your Select
+State!" );
+return false;
+}
+if( document.StudentRegistration.pincode.value == "" ||
+isNaN( document.StudentRegistration.pincode.value) ||
+document.StudentRegistration.pincode.value.length != 6 )
+{
+alert( "Please provide a pincode in the format ######." );
+document.StudentRegistration.pincode.focus() ;
+return false; }
+return( true );
+
+OUTPUTS:
+StudentRegistration.html
+
+EX NO: 5 Quiz program with adaptive questions using JavaScript.
+Quiz.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Quiz</title>
+<style>
+div#test{ border:#5AB029 3px solid; padding:10px 40px 40px 40px;
+backgroundcolor:#E5FCE3; width:50%;}
+</style>
+<h1> <center>Quiz program with adaptive questions using JavaScript</center></h1>
+<script type="text/javascript">
+// pos is position of where the user in the test or which question they're up to var pos = 0,
+test, test_status, question, choice, choices, chA, chB, chC, correct = 0; // this is a
+multidimensional array with 4 inner array elements with 5 elements inside them // if you
+don't want answers viewable in the code, then you should use PHP and mySQL database
+var questions = [
+["What is 36 + 42", "64", "78", "76", "B"],
+["What is 7 x 4?", "21", "27", "28", "C"],
+["What is 16 / 4?", "4", "6", "3", "A"],
+["What is 8 x 12?", "88", "112", "96", "C"]
+];
+// this get function is short for the getElementById function function
+get(x){
+return document.getElementById(x);
+}
+function renderQuestion(){
+test = get("test"); if(pos >=
+questions.length){
+test.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions
+correct</h2>"; get("test_status").innerHTML = "Test completed"; // resets the
+variable to allow users to restart the test pos = 0;
+correct = 0;
+// stops rest of renderQuestion function running when test is completed return
+false;
+}
+get("test_status").innerHTML = "Question "+(pos+1)+" of "+questions.length;
+question = questions[pos][0]; chA = questions[pos][1]; chB =
+questions[pos][2]; chC = questions[pos][3];
+test.innerHTML = "<h3>"+question+"</h3>";
+// the += appends to the data we started on the line above test.innerHTML += "<input
+type='radio' name='choices' value='A'> "+chA+"<br>"; test.innerHTML += "<input
+type='radio' name='choices' value='B'> "+chB+"<br>"; test.innerHTML += "<input
+type='radio' name='choices' value='C'> "+chC+"<br><br>"; test.innerHTML +=
+"<button onclick='checkAnswer()'>Submit Answer</button>";
+
+}
+function checkAnswer(){
+// use getElementsByName because we have an array which it will loop through choices
+= document.getElementsByName("choices");
+for(var i=0; i<choices.length; i++){
+if(choices[i].checked){ choice =
+choices[i].value;
+}
+}
+// checks if answer matches the correct choice if(choice
+== questions[pos][4]){
+//each time there is a correct answer this value increases correct++;
+}
+// changes position of which character user is on pos++;
+// then the renderQuestion function runs again to go to next question renderQuestion();
+}
+window.addEventListener("load", renderQuestion, false);
+</script>
+</head>
+<body>
+<h2 id="test_status"></h2>
+<div id="test"></div>
+</body>
+</html>
+
+OUTPUTS:
+
+Quiz.html
+
+EX NO 6
+
+Online Event Registration form and validate using Jquery
+
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/ 4.0.0/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src= "https://ajax.googleapis.com/ajax/libs/
+jquery/3.3.1/jquery.min.js">
+</script>
+<!-- Popper JS -->
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/
+popper.js/1.12.9/umd/popper.min.js">
+</script>
+<!-- Latest compiled JavaScript -->
+<script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/
+4.0.0/js/bootstrap.min.js">
+</script>
+</head>
+<body><br>
+<h1 class="text-center text-success">
+Welcome to Dept of IT
+</h1>
+<p class="text-center">
+FORM VALIDATION USING JQUERY
+</p>
+<div class="container">
+<div class="col-lg-8
+m-auto d-block">
+<form>
+<div class="form-group">
+<label for ="user">
+Username:
+</label>
+<input type="text"
+name="username" id="usernames"
+class="form-control">
+<h5 id="usercheck" style="color: red;" >
+**Username is missing
+
+</h5>
+</div>
+<div class="form-group">
+<label for="user">
+Email:
+</label>
+<input type="email" name="email"
+id="email" required
+class="form-control">
+<small id="emailvalid" class="form-text
+text-muted invalid-feedback">
+Your email must be a valid email
+</small>
+</div>
+<div class="form-group">
+<label for="password">
+Password:
+</label>
+<input type="password" name="pass"
+id="password" class="form-control">
+<h5 id="passcheck" style="color: red;">
+**Please Fill the password
+</h5>
+</div>
+<div class="form-group">
+<label for="conpassword">
+Confirm Password:
+</label>
+<input type="password" name="username"
+id="conpassword" class="form-control">
+<h5 id="conpasscheck" style="color: red;">
+**Password didn't match
+</h5>
+</div>
+<<div class="form-group">
+<label for ="Event">
+Event:
+</label>
+<input type="text"
+name="Event" id="Event"
+class="form-control">
+<h5 id="Eventcheck" style="color: red;" >
+**Event name is missing
+</h5>
+</div>
+<input type="submit" id="submitbtn"
+value="Submit" class="btn btn-primary">
+
+</form>
+</div>
+</div>
+<!-- Including app.js jQuery Script -->
+<script src="app.js"></script>
+</body>
+</html>
+
+app.js // Document
+is ready
+$(document).ready(function () {
+// Validate Username
+$('#usercheck').hide();
+let
+usernameError = true;
+$('#usernames').keyup(function () {
+validateUsername();
+});
+function validateUsername() {
+let
+usernameValue = $('#usernames').val();
+if
+(usernameValue.length == '') {
+$('#usercheck').show();
+usernameError = false;
+return false;
+}
+else if((usernameValue.length < 3)||
+(usernameValue.length > 10)) {
+$('#usercheck').show();
+$('#usercheck').html
+("**length of username must be between 3 and 10");
+usernameError = false;
+return false;
+}
+else {
+$('#usercheck').hide();
+}
+}
+// Validate Email
+const email =
+document.getElementById('email');
+email.addEventListener('blur', ()=>{
+let regex =
+/^([_\-\.0-9a-zA-Z]+)@([_\-\.0-9a-zA-Z]+)\.([a-zA-Z]){2,7}$/;
+let s = email.value;
+
+if(regex.test(s)){
+email.classList.remove(
+'is-invalid');
+emailError = true;
+}
+else{
+email.classList.add(
+'is-invalid');
+emailError =
+false;
+}
+})
+// Validate Password
+$('#passcheck').hide();
+let
+passwordError = true;
+$('#password').keyup(function () {
+validatePassword();
+});
+function validatePassword() {
+let passwrdValue =
+$('#password').val();
+if (passwrdValue.length == '') {
+$('#passcheck').show();
+passwordError
+= false;
+return false;
+}
+if ((passwrdValue.length < 3)||
+(passwrdValue.length > 10)) {
+$('#passcheck').show();
+$('#passcheck').html
+("**length of your password must be between 3 and 10");
+$('#passcheck').css("color", "red");
+passwordError =
+false;
+return false;
+} else {
+$('#passcheck').hide();
+}
+}
+// Validate Confirm Password
+$('#conpasscheck').hide();
+let
+confirmPasswordError = true;
+$('#conpassword').keyup(function () {
+validateConfirmPasswrd();
+});
+function validateConfirmPasswrd() {
+let confirmPasswordValue =
+$('#conpassword').val();
+let
+
+passwrdValue =
+$('#password').val();
+if (passwrdValue != confirmPasswordValue) {
+$('#conpasscheck').show();
+$('#conpasscheck').html(
+"**Password didn't Match");
+$('#conpasscheck').css(
+"color", "red");
+confirmPasswordError = false;
+return false;
+} else {
+$('#conpasscheck').hide();
+}
+}
+// Validate Event
+$('#Eventcheck').hide();
+let EventError = true;
+$('#Event').keyup(function () {
+validateEvent();
+});
+function validateEvent() {
+let
+EventValue = $('#Event').val();
+if
+(EventValue.length == '') {
+$('#Event').show();
+EventError = false;
+return false;
+}
+else if((EventValue.length < 10)||
+(EventValue.length > 20)) {
+$('#Eventcheck').show();
+$('#Eventcheck').html
+("**length of Event must be between 10 and 20");
+EventError = false;
+return false;
+}
+else {
+$('#Event').hide();
+}
+}
+// Submitt button
+$('#submitbtn').click(function () {
+validateUsername();
+validatePassword();
+validateConfirmPasswrd();
+validateEmail();
+if ((usernameError == true) &&
+(passwordError == true) &&
+(confirmPasswordError == true) &&
+
+(emailError == true))
+return true;
+return false;
+
+{
+} else {
+}
+});
+});
+
+OUTPUTS:
+index.html
+
+EX NO : 7 Webpage to display student consolidate mark statement with
+pass (green color)or fail (red color)
+
+Calcofres.html
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body style="background-color:grey";>
+<center> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<form name = "form1">
+<table border = "1" style="background-color:white; width:500px;";>
+<td colspan = "2" align = "center">Student Mark List</td>
+<tr>
+<td> Student Name</td>
+<td><input type = "text" id="s1"/></td>
+</tr>
+<tr>
+<td colspan = "2" align = "center">Subject Marks</td>
+</tr>
+<tr>
+<td>Web Programming</td>
+<td><input type = "text" name = "wp" id="wp" /></td>
+</tr>
+<tr>
+<td>Computer Graphics</td>
+<td><input type = "text" name = "cg" id="cg" /></td>
+</tr>
+<tr>
+<td>System Programming</td>
+<td><input type = "text" name = "sp" id="sp"/></td>
+</tr>
+<tr>
+<td colspan = "2" align = "center"><input type = "button" onclick="calc()" value =
+"calculte" id="calculate"/></td>
+</tr>
+<tr>
+<td>Total</td>
+<td id="total"></td>
+
+</tr>
+<tr>
+<td>Result</td>
+<td id="result" ></td>
+</tr>
+</table>
+</form>
+<script src="app.js"></script>
+</center>
+</body>
+</html>
+
+app.js
+function calc(){ let wp =
+parseInt(document.getElementById("wp").value); let cg =
+parseInt(document.getElementById("cg").value); let sp =
+parseInt(document.getElementById("sp").value);
+let t = wp + cg + sp; let total =
+document.getElementById("total"); let average =
+document.getElementById("average"); let result =
+document.getElementById("result"); let grade =
+document.getElementById("grade");
+if( wp<50 || cg < 50 || sp < 50)
+{
+/*result = "fail";
+reult.style.color = "red";
+*/
+result.innerHTML = "fail";
+result.style.color = "red";
+total.innerHTML = t;
+}
+else{
+result.innerHTML = "pass";
+result.style.color = "green";
+console.log("Inside passs");
+total.innerHTML = t;
+}
+}
+
+OOUTPUTS:
+
+Calcofres.html
+
+EX NO 8 Program to change the content of the web page using AJAX
+Index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>index.html</title>
+<h1>AJAX object to Change the Content of Paragraph</h1>
+<script src=" https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+$("#pageTitle").html("<h4>AJAX technology (AJAX = Asynchronous JavaScript And
+XML) is a developer’s dream because it can be used to update a content of a web page
+without reloading the whole page.</h4>");
+});
+});
+</script>
+</head>
+<body>
+<div id="pageTitle">
+<p><b>In conventional web applications data from the server and data to the server
+are sending synchronously.Which means that when we hit the submit button,
+it will direct to a new page with new content.By using AJAX we can update
+the part of a web page by sending the data to the server or retrieve data
+from the server asynchronously.</b><p>
+</div>
+<button type="button">Click To Change Paragraph Content Using AJAX</button>
+</body>
+</html>
+
+OUTPUT:
+Index.html
+
+
